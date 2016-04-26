@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int b=1;
+    int a;
+    long jumlah=1;
+    
+    cout<<"masukkan nilai yang di faktorialkan = ";
+    cin>>a;
+    while (b<=a)
+    {
+          jumlah=jumlah*b;
+          b=b+1;
+    }
+    cout<<"Hasil = "<< jumlah <<endl;
+    
+}
