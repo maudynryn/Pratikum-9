@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, n;
+    cout<<"menampilkan angka segitiga"<<endl;
+    cout<<"Nilai Awal = ";
+    cin>>a;
+    cout<<"Nilai Akhir = ";
+    cin>>n;
+
+    for (a=0; a<n; a++){for (b=0; b<a; b++)
+        {
+            cout<<b;
+        }   cout<<endl;
+    }
+
+    return 0;
+}
